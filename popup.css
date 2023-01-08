@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Manaspc;
+    src: url("manaspc-webfont.woff2");
+}
+
 body {
-    width: 20rem;
+    width: 18rem;
+    background-image: url("/images/repeatingbackground.jpg");
+    background-color: #ffe8f3;
 }
 
 h3,
@@ -7,6 +14,30 @@ p {
     margin: 0;
 }
 
+h2 {
+    font-family: Manaspc, 'Courier New';
+    text-align: center;
+}
+
 img {
-    margin: 0;
+    margin: 0px;
+}
+
+#main {
+    padding: 1rem 1.5rem;
+}
+
+#mainimg {
+    width: 75%;
+    margin-bottom: 1rem;
+}
+
+#nameimg {
+    width: 90%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
